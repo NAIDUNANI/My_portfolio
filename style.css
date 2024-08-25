@@ -1,0 +1,626 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home_page{
+    height: 695px;
+    width: initial;
+    background: linear-gradient(to top right, #6182b0, #F5EDED, #6182b0);
+}
+.logo{
+    display: inline-block;
+    margin-left: 150px;
+}
+#menu{
+    background-color: white;
+    width: 1504px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+}
+#navbar{
+    margin-left:750px ;
+    display:inline-block;
+}
+.menu_option1{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu_option1:hover,.menu_option2:hover,.menu_option3:hover,.menu_option4:hover,.menu_option5:hover{
+    color: #050ef8;
+    font-size: 20px;
+}
+.menu_option2{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu_option3{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu_option4{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu_option5{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.my_name1{
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    font-size: 55px;
+    display: inline;
+}
+.my_name2{
+    display: inline;
+    position: absolute;
+    top: 300px;
+    left: 280px;
+    font-size: 55px;
+    
+}
+.role{
+    position: absolute;
+    top: 380px;
+    left: 280px;
+    font-size: 30px;
+    
+}
+.container{
+    display: inline;
+    position: absolute;
+    top: 240px;
+    left: 1447px;
+}
+.rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5 {
+    width: 65px;
+    box-shadow: 0 4px 10px ;
+    height: 35px;
+    margin-bottom: 40px;
+    margin-right: 8px;
+    background-color: #03087B;
+    display: flex;
+}
+.container2{
+    display: flex;
+    position: absolute;
+    top: 625px;
+    left: 50px;
+}
+.rectangle11, .rectangle12, .rectangle13, .rectangle14, .rectangle15 {
+    width: 35px;
+    box-shadow: 4px 0 10px ;
+    height: 65px;
+    margin-left: 40px;
+    background-color: #03087B;
+    display: flex;
+}
+#profile_pic{
+    position: absolute;
+    top: 180px;
+    left: 1070px;
+    width: 200px;
+    height: 230px;
+    border-top-right-radius: 20%;
+    display: inline-block;
+    border: 26px solid #030878;
+}
+.my_image{
+    position: absolute;
+    top: 240px;
+    left: 970px;
+    width: 290px;
+    height: 320px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+#div1{
+    position: absolute;
+    top: 340px;
+    left: 900px;
+    width: 200px;
+    height: 230px;
+    border-bottom-left-radius: 20%;
+    display: inline-block;
+    border: 26px solid #030878;
+}
+#download_box{
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    top: 480px;
+    left: 350px;
+    width: 147px;
+    height: 35px;
+    background-color:#030878 ;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+#download_box:hover{
+    background-color: red;
+}
+
+#about_page{
+    height: 695px;
+    background: linear-gradient(to top left, #6182b0, #F5EDED, #6182b0);
+}
+#profile_pic2{
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    width: 210px;
+    height: 230px;
+    margin-top: 35px;
+    margin-left: 43px;
+    background:linear-gradient(#9BB0C1,#AD88C6);
+}
+.my_image2{
+    
+    width: 215px;
+    height: 230px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+#div2{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 300px;
+    height: 340px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #030878 ;
+    box-shadow: 0 8px 12px black;
+}
+#profile_links1{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+#profile11{
+    margin: 10px;
+    border-radius: 5px;
+}
+#profile12, #profile13, #profile14{
+    margin: 10px;
+}
+#profile11:hover,#profile12:hover,#profile13:hover,#profile14:hover{
+    fill:rgb(93, 93, 104);
+}
+#information{
+    position: absolute;
+    left: 500px;
+    top: 790px;
+    height: 560px;
+    width: 890px;
+}
+#about_me{
+    align-items: center;
+    height: 180px;
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius:10px;
+    box-shadow: 0 6px 10px black;
+    background-color: aliceblue;
+    border: 5px solid #030878;
+    position: relative;
+    transition: 0.5s;
+}
+#about_me:hover{
+    top: -3px;
+    left: -3px;
+    border: 5px solid rgb(204, 72, 45);
+}
+.about_header{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+    
+}
+.about_para{
+    color: black;
+    width: 750px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: -10px;
+    text-align: justify;
+    
+}
+#eduction{
+    background-color: aliceblue;
+    width: 800px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 5px solid #030878;
+    box-shadow: 0 6px 10px black;
+    position: relative;
+    transition: 0.5s;
+}
+#eduction:hover{
+    top: -3px;
+    left: -3px;
+    border: 5px solid rgb(204, 72, 45);
+}
+.eduction_header{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: black;
+    
+}
+#edu_details{
+    margin-top: -8px;
+    color: black;
+    
+}
+.years{
+    padding-left: 290px;
+    display: inline;
+    color: black;
+    
+}
+#skills{
+    width: 250px;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 5px solid #030878;
+    margin-left: 120px;
+    margin-top: 50px;
+    box-shadow: 4px 6px 14px;
+    position: relative;
+    transition: 0.5s;
+}
+#skills:hover{
+    top: -3px;
+    left: -3px;
+    border: 5px solid rgb(204, 72, 45);
+}
+.skills_header{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    color: black;
+}
+.skills_list{
+    width: 200px;
+    margin-top: -5px;
+    text-align:center;
+    margin-left: 20px;
+    display: inline-block;
+    color: black;
+}
+
+#project_page{
+    align-content: center;
+    height: 695px;
+    background: linear-gradient(to top right, #6182b0, #F5EDED, #6182b0);
+}
+#project_cards{
+    display: flex;
+    margin-left: 7rem;
+    width: 80rem;
+    height: 27rem;
+    align-content: center;
+    align-items: center;
+}
+#project1{
+    background-color: aliceblue;
+    margin-left: 3rem;
+    width: 22rem;
+    height: 25rem;
+    margin-right: 1rem;
+    border: 0.3rem solid #030878;
+    transition: 0.2s;
+    border-radius: 10px ;
+}
+#project2, #project3{
+    background-color: aliceblue;
+    width: 22rem;
+    height: 25rem;
+    margin: 1rem;
+    border: 0.3rem solid #030878;
+    transition: 0.2s;
+    border-radius: 10px ;
+}
+#project1:hover, #project2:hover, #project3:hover{
+    box-shadow: 0px 0px 20px 4px black;
+    border: 0.3rem solid  rgb(204, 72, 45);
+}
+.pro_lines{
+    text-align: justify;
+    width: 19rem;
+}
+#view1{
+    margin-top: 10px;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    background-color: #030878;
+    border-radius: 10px;
+}
+#view1:hover{
+    background-color: red;
+}
+
+#cerifications_page{
+    height: 695px;
+    background: linear-gradient(to top left, #6182b0, #F5EDED, #6182b0);
+}
+.cerification_header{
+    display: inline-block;
+    font-size: 30px;
+    margin-top:4.5rem;
+    margin-bottom: 1.2rem;
+}
+#cerificat_list{
+    width: 90rem;
+    height: 17rem;
+    display: flex;
+    gap: 10rem;
+}
+.cerificat_1{
+    margin-left: 5rem;
+    width: 20rem;
+    height: 16rem;
+    background-color: #03087B;
+    transition: 0.2s;
+    border-radius: 10px ;
+}
+.cerificat_2{
+    width: 20rem;
+    height: 16rem;
+    background-color: #03087B;
+    transition: 0.2s;
+    border-radius: 10px ;
+}
+.cerificat_3{
+    width: 20rem;
+    height: 16rem;
+    background-color: #03087B;
+    transition: 0.2s;
+    border-radius: 10px ;
+}
+.cerificat_4{
+    margin-left: 18rem;
+    width: 21.59rem;
+    height: 16.5rem;
+    background-color: #03087B;
+    transition: 0.2s;
+    border-radius: 10px ;
+}
+.cerificat_5{
+    width: 21.59rem;
+    height: 16.5rem;
+    background-color: #03087B;
+    transition: 0.2s;
+    border-radius: 10px ;
+}
+.cer{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+figcaption{
+    font-size: larger;
+    color: #fff;
+}
+.cerificat_1:hover, .cerificat_2:hover, .cerificat_3:hover, .cerificat_4:hover, .cerificat_5:hover{
+    box-shadow: 1px 0px 20px 4px black;
+    background-color: red;
+}
+
+
+#contact_page{
+    height: 695px;
+    background: linear-gradient(to top right, #6182b0, #F5EDED, #6182b0);
+}
+#rectangle21{
+    margin-top: 100px;
+    width: 75px;
+    box-shadow: 0 4px 10px ;
+    height: 35px;
+    background-color: #030878;
+    float: right;
+    display: inline-block;
+}
+#rectangle22{
+    display: inline-block;
+    margin-top: 170px;
+    margin-right: -75px;
+    width: 75px;
+    box-shadow: 0 4px 10px ;
+    height: 35px;
+    background-color: #030878;
+    float: right;
+}
+#rectangle23{
+    position: relative;
+    top: 530px;
+    width: 75px;
+    box-shadow: 0 4px 10px ;
+    height: 35px;
+    background-color: #030878;
+    display: inline-block;
+}
+#rectangle24{
+    position: relative;
+    top: 600px;
+    margin-left: -78px;
+    width: 75px;
+    box-shadow: 0 4px 10px ;
+    height: 35px;
+    background-color: #030878;
+    display: inline-block;
+}
+.contact_header{
+    padding-left: 70px;
+    margin-top: 60px;
+    display: inline-block;
+    font-size: 30px;
+}
+#boxs{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.address_box{
+    margin: 10px;
+    width: 290px;
+    height: 170px;
+    background-color: aliceblue;
+    border-bottom: 4px solid #030878;
+    transition: 0.2s;
+}
+#add_icon{
+    margin-top: 30px;
+}
+.address_box:hover, .mobile_box:hover, .email_box:hover{
+    margin-top: -1px;
+    border-bottom: 4px solid red;
+}
+.mobile_box{
+    margin: 10px;
+    width: 290px;
+    height: 170px;
+    background-color: aliceblue;
+    border-bottom: 4px solid #030878;
+    transition: 0.2s;
+}
+.email_box{
+    margin: 10px;
+    width: 290px;
+    height: 170px;
+    background-color: aliceblue;
+    border-bottom: 4px solid #030878;
+    transition: 0.2s;
+}
+#contact_section{
+    margin-top: 10px;
+    width: 750px;
+    height: 250px;
+    background-color: aliceblue;
+    border-bottom: 4px solid #030878;
+    transition: 0.2s;
+}
+#contact_section:hover{
+    margin-top: -0px;
+    border-bottom: 4px solid red;
+}
+.name{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 25px;
+    width: 330px;
+}
+.email{
+    height: 25px;
+    width: 330px;
+}
+.subject{
+    margin-top: 15px;
+    height: 25px;
+    width: 690px;
+}
+.message{
+    margin-top: 15px;
+    height: 70px;
+    width: 690px;
+}
+#submit_box{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #030878;
+}
+.button_name{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#submit_box:hover{
+    background-color: red   ;
+}
+.footer_header{
+    color: #fff;
+    width: 155px;
+    height: 30px;
+    display: inline-block;
+    border-bottom: 3px solid #fff;
+}
+a{
+    text-decoration: none;
+}
+.porfile_links{
+    display: inline-block;
+    justify-content: space-between;
+}
+#profile1{
+    margin: 10px;
+}
+#profile2{
+    margin: 10px;
+}
+#profile3{
+    margin: 10px;
+}
+#profile4{
+    margin: 10px;
+}
+#profile5{
+    margin: 10px;
+}
+#profile1:hover, #profile2:hover, #profile3:hover, #profile4:hover, #profile5:hover{
+    fill: #030878;
+}
+#footer{
+    background-color: #363636;
+}
+
+
+/* Style for the Up Arrow Button */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Make sure it's on top of other elements */
+    background-color: #030878;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+/* Show the button when the user scrolls down 100px from the top */
+#scrollTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Optional: Hover effect */
+#scrollTopBtn:hover {
+    background-color: red;
+}
